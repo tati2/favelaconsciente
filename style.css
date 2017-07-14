@@ -198,14 +198,23 @@ ul {
 	justify-content: flex-start;
 	flex-direction:row;
 	flex-wrap: wrap;*/
-	background-color: #363636;
+	/*background-color: #363636;
 	border-radius: 25px;
 	width: 25.5%;
 	height: 35%;
 	opacity:0.70;
 	color:#fff;
 	top:10%;
-	margin: 2.5%;	
+	margin: 2.5%;	*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 25px;
+	background-color:rgba(10, 10, 10, 0.52);;
+	width: 30%;
+	margin:2.5%;
+	color:#fff;
 }
 
 footer div p{
@@ -215,6 +224,9 @@ footer div p{
 	margin-left: 50%;
 	font-size: 1.30em;
 	line-height:1em;
+	
+}
+
 }
 
 footer div h1{
@@ -295,12 +307,14 @@ footer div h1{
 	
 	
 	.caixa-contato{
-		display: flex;
+		/*display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		flex-direction: center;		
-		width: 70%;
+		flex-direction: center;	*/	
+		width: 80%;
+		padding: 0.75%;
+
 		
 	}
 	.contato-img{
