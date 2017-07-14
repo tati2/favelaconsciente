@@ -184,7 +184,7 @@ ul {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	background:url(Assets/04.jpg) center center;
+	background:url(Assets/04.jpg)center ;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
@@ -218,10 +218,7 @@ ul {
 }
 
 footer div p{
-	width: 40%;
-	position: relative;
-	left: -30%;
-	margin-left: 50%;
+	
 	font-size: 1.30em;
 	line-height:1em;
 	
@@ -230,8 +227,8 @@ footer div p{
 }
 
 footer div h1{
-	width: 45%;
-	margin-left: 18%;
+	width: 30%;
+	/*margin-left: 18%;*/
 	
 }
 .contato-img {
@@ -312,8 +309,9 @@ footer div h1{
 		align-items: center;
 		justify-content: center;
 		flex-direction: center;	*/	
-		width: 80%;
+		width: 75%;
 		padding: 0.75%;
+		margin: 0 auto;
 
 		
 	}
